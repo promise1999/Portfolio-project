@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: rgb(214, 149, 149);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    opacity: 95%;
+    color: #fff;
+}
+
+.topbar {
+    width: 100%;
+    border-top-width: 0ch;
+    background-color: lightblue;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    border-bottom: 1px solid black;
+}
+
+.navbar-text {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.main-container {
+    width: 100%;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tables {
+    display: flex;
+    flex-direction: row;
+    height: 330px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: top;
+    justify-content: center;
+    
+}
+
+.resume-table {
+    border: 1px solid black;
+    min-height: 300px;
+    min-width: 140px;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 13px;
+}
+
+.education-table {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border: 1px solid black;
+    min-height: 300px;
+    min-width: 140px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.jobs {
+    margin-top: 40px;
+    min-height: 80px;
+    min-width: 480px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-pics {
+    width: 120px;
+}
+
+.Testimonies{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid o;
+    
+}
+
+.profile2 {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    min-height: 40px;
+    min-width: 50px;
+    
+}
+
+.items{
+    padding: 10px;
+    max-width: 110px;
+
+}
+.table-header {
+    border-bottom: 1px solid black;
+}
+
+.bottom-bar {
+    width: 100%;
+    border: 0cm;
+    background-color: lightblue;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    border-bottom: 1px solid black;
+}
